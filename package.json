@@ -1,0 +1,32 @@
+{
+  "name": "express-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Application based on express js with es6 and integerated with mongodb",
+  "main": "dist/app.js",
+  "scripts": {
+    "build-dev": "babel --watch src --out-dir dist --source-maps",
+    "build-prod": "babel src --out-dir dist",
+    "server": "nodemon dist/app.js"
+  },
+  "author": "MohammadHossein Mardani",
+  "url": "https://github.com/mhmardani/express-es6-boilerplate",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "mongodb": "^2.2.31",
+    "mongodb-migrate": "^2.0.2",
+    "mongodb-migrations": "^0.8.5",
+    "mongoose": "^4.11.11",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-unique-validator": "^1.0.6",
+    "nodemon": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
