@@ -1,7 +1,7 @@
 {
   "name": "express-es6-boilerplate",
   "version": "1.0.0",
-  "description": "Node Application based on express js with es6 and integerated with mongodb",
+  "description": "Node Application based on express js with es6 and integrated with mongodb",
   "main": "dist/app.js",
   "scripts": {
     "build-dev": "babel --watch src --out-dir dist --source-maps",
