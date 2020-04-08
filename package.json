@@ -21,7 +21,7 @@
     "mongodb": "^2.2.31",
     "mongodb-migrate": "^2.0.2",
     "mongodb-migrations": "^0.8.5",
-    "mongoose": "^4.11.11",
+    "mongoose": "^5.7.5",
     "mongoose-auto-increment": "^5.0.1",
     "mongoose-unique-validator": "^1.0.6",
     "nodemon": "^1.12.0"
