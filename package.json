@@ -16,7 +16,7 @@
     "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.18.1",
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "jsonwebtoken": "^8.0.1",
     "mongodb": "^2.2.31",
     "mongodb-migrate": "^2.0.2",
